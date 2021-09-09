@@ -29,6 +29,9 @@ This is the second version of the housing as I wasn't happy with the first one a
 I admit this is far uglier than I wanted it to be and maybe I'll make it look more like an outboard motor in the future.  Right now I'm happy with how it works and I'm particularly proud of the screw adjustment to raise/lower the motor to adjust pressure on the bevel gear meshing.
 I reused a steering horn extension I already had on my last working rudder that raises the connection point up to connect with the servo rod.  There are some holes I didn't add to the model that I ended up drilling by hand because I wasn't sure where I would ultimately want them.  The holes that match the ones in the outboard bracket were drilled once I determined the height I wanted it to sit on my boat.  I also added a single hole for a screw to lock the thread adjustment in place as the torque from the motor I'm using would easily spin it around.
 
-I've printed all my 3d stuff in PETG because it's more durable in extreme environments such as weather, water and sunlight.
+I've included the Openscad file and .stl I used for the threads.  If you want to use those, you'll have to configure your Openscad libraries per that authors instructions: https://github.com/adrianschlatter/threadlib
+I just played around with the standard thread sizes available to find one that my motor would fit inside of with some wriggle room.  Also wanted a relatively thick and hearty thread size to make it easier to use in plastic.
 
-One thing I will be adding for sure is a cover for the motor so it has less chance to get wet.  This will a good opportunity to give it more of an "outboard" motor shape.
+I've printed all my 3d stuff in PETG because it's more durable in extreme environments such as weather, water and sunlight.  I printed all of this on my Prusa MK3S+ with a .06 nozzle which greatly reduces print times.  Even then this whole thing was over 16 hours, printing with "supports everywhere".
+
+One thing I will be adding for sure is a cover for the motor so it has less chance to get wet.  This will be a good opportunity to give it more of an "outboard" motor shape.
